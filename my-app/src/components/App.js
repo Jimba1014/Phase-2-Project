@@ -1,6 +1,6 @@
 import React from 'react';
-import { Routes, Route } from "react-router-dom"
-import './App.css';
+import { Switch, Route } from "react-router-dom"
+import '../App.css';
 import Form from './Form';
 import HomePage from './HomePage';
 import Search from './Search';
@@ -11,17 +11,17 @@ function App() {
     <div className="App">
       <header className="App-header">
         <NavBar />
-        <Routes>
-          <Route path="/home">
+        <Switch>
+          <Route exact path="/">
             <HomePage />
           </Route>
           <Route path="/search">
             <Search />
           </Route>
-          <Route path="/form">
-            <Form />
-          </Route>
-        </Routes>
+          {/* <Route path="/form"> */}
+            {/* <Form /> */}
+          {/* </Route> */}
+        </Switch>
       </header>
     </div>
   );

@@ -3,13 +3,13 @@ import MemberCard from './MemberCard';
 
 function HomePage() {
 
-    const renderCards = memberDetails.map((memberDetail) => {
-        <MemberCard {...memberDetail} key={memberDetail.id}/>
-    })
+    // const renderCards = memberDetails.map((memberDetail) => {
+    //     <MemberCard {...memberDetail} key={memberDetail.id}/>
+    // })
 
     return(
         <div>
-            {renderCards}
+            <MemberCard/>
         </div>
     )
 }
