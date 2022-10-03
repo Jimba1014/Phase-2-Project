@@ -1,10 +1,11 @@
 import React from 'react'; 
+import { Link } from 'react-router-dom'
 
 function MemberCard({ id, name, instruments, genre, artists, song, memory, link }) {
     return(
         <div>
             <h1>{name}</h1>
-            <div>{link}</div>
+            <Link to={link}>{link}</Link>
             <div className='hidden-component'>
                 <p>Instruments that I can Play: {instruments}</p>
                 <p>My Favorite Genre of Music: {genre} </p>
