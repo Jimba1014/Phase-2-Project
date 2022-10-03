@@ -1,6 +1,6 @@
 import React from 'react'; 
 
-function MemberCard() {
+function MemberCard({ id, name, instruments, genre, artists, song, memory, link }) {
     return(
         <div>
             <h1>Name</h1>
