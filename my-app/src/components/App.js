@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route } from "react-router-dom"
+import { Routes, Route } from "react-router-dom"
 import './App.css';
 import Form from './Form';
 import HomePage from './HomePage';
@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <NavBar />
-        <Switch>
+        <Routes>
           <Route path="/home">
             <HomePage />
           </Route>
@@ -21,7 +21,7 @@ function App() {
           <Route path="/form">
             <Form />
           </Route>
-        </Switch>
+        </Routes>
       </header>
     </div>
   );
