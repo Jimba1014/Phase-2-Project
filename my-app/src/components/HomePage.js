@@ -1,15 +1,15 @@
 import React from 'react'; 
 import MemberCard from './MemberCard';
 
-function HomePage() {
+function HomePage({ details }) {
 
-    // const renderCards = memberDetails.map((memberDetail) => {
-    //     <MemberCard {...memberDetail} key={memberDetail.id}/>
-    // })
+    const renderCards = details.map((detail) => {
+        return <MemberCard {...detail} key={detail.id}/>
+    })
 
     return(
         <div>
-            <MemberCard/>
+            {renderCards}
         </div>
     )
 }
