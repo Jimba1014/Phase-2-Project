@@ -1,9 +1,10 @@
 import React from 'react'; 
+import MemberCard from './MemberCard';
 
 function HomePage() {
     return(
         <div>
-            Home Page 
+            <MemberCard />
         </div>
     )
 }
