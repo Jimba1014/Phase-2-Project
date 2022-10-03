@@ -2,9 +2,14 @@ import React from 'react';
 import MemberCard from './MemberCard';
 
 function HomePage() {
+
+    const renderCards = memberDetails.map((memberDetail) => {
+        <MemberCard {...memberDetail} />
+    })
+
     return(
         <div>
-            <MemberCard />
+            {renderCards}
         </div>
     )
 }
