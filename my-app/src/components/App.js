@@ -18,9 +18,9 @@ function App() {
           <Route path="/search">
             <Search />
           </Route>
-          {/* <Route path="/form"> */}
-            {/* <Form /> */}
-          {/* </Route> */}
+          <Route path="/form">
+            <Form />
+          </Route>
         </Switch>
       </header>
     </div>
