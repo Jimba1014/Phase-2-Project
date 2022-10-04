@@ -162,6 +162,15 @@ input[type='checkbox']{
   text-align: center;
 }
 
+img {
+  padding: 1.5rem;
+  height: auto;
+  max-width: 20%;
+  max-height: 20%;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
 @media(max-width: 700px){
   .cards__item{
     width: 50%;
