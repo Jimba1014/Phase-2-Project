@@ -15,11 +15,13 @@ function MemberCard({ id, name, instruments, genre, artists, song, memory, link 
 
 
 
+
+
     return(
        <li className="card">
         <div className="card__content">
             <h1 className="card__title" onClick={handleClick}>{name}</h1>
-            <button onClick = {() => openInNewTab(link)}>My Music Account</button>
+            <button id="spotifyButton" onClick = {() => openInNewTab(link)}>My Music Account</button>
             <div className="card__text">
                 {isHidden ? <div>
                     <p>Instruments that I can Play: {instruments}</p>
