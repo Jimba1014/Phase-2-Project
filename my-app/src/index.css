@@ -1,5 +1,5 @@
 html {
-  background-color: #9cd4f5;
+  background-color: #175b83;
 }
 
 body {
@@ -125,9 +125,10 @@ input[type='checkbox']{
   display: flex;
   width: 45%;
   overflow: hidden;
-  padding: 0;
-  margin: 1rem;
+  padding: 1rem;
+  margin: 1rem;  
 }
+
 
 .card__content {
   display: flex;
