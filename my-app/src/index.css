@@ -221,6 +221,7 @@ input[type='checkbox']{
 
 #musicNav{
   width: 100px;
-  height: auto
-  
+  height: auto;
+  margin-bottom: -23px;
+  margin-left: 10px;
 }
