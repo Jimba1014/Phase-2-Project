@@ -2,8 +2,8 @@ import React from 'react';
 
 function AboutUs() {
     return(
-        <div>
-           About the creators
+        <div className='about'>
+           <h2>About the creators</h2>
         </div>
     )
 }
