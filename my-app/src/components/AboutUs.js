@@ -6,10 +6,10 @@ function AboutUs() {
            <h2>About The Creators</h2>
            <div>
             <img className='creator-img'
-            src="https://cvws.icloud-content.com/S/ATJCUqMvETyq3QcOFB-MvjiJZzqG/IMG_9253.jpg?o=AkaK-QNA85x5mEJv-tfAqxUrZjHtGGJyIF2y2TxNPdUy&v=1&z=https%3A%2F%2Fp24-content.icloud.com%3A443&x=1&a=CAogTsc64GRJyiSpOaWUK1K7pJTrKum7mo3U1lsr5Q1VfAcSZxCnivejujAYp6GKqbowIgEAUgSJZzqGaiZ16iKaUj5tZ10i3x__7uIgzCUsRnN0sGtrs_I0Z1eaGkDS_mDP9XImmeqeMXTfd1LAQWillbuBM_zyw8c8OUGoJrXJMDYNuQvuIm2hVYI&e=1664922849&r=78bc6b74-a441-4ccd-b1e1-dd116cecce15-4&s=MirGp3fwxKLLevqAAbKUFbHg2bM" 
+            src="https://cvws.icloud-content.com/S/ATJCUqMvETyq3QcOFB-MvjiJZzqG/IMG_9253.jpg?o=AgJgSSeNY0LNlhUSHvMudAtQL8iPVJt5B6KY0NxhiZPS&v=1&z=https%3A%2F%2Fp24-content.icloud.com%3A443&x=1&a=CAog-sn0fY6_di4kM1_1ZwnADX4h_Pv9iYoTcdoDnjD0Av4SZxCcybypujAYnODPrrowIgEAUgSJZzqGaiYYne57HRFn9oWnTxLelUA2OhJ80yC9OCPJ6fxqnnRRdhyRAlJV_XImiAbkHsxXDdJfypDcfZPeR8SejuAGRWYSHWH13nzwzcQdPbNLWZw&e=1664934473&r=466bc9c4-657b-45fa-af94-cde36ea1f0be-4&s=gIsxrKxl3KhVGXW2rhR5ZFZCgUA" 
             alt="Jim Baldridge"/>
             <img className='creator-img'
-            src="https://cvws.icloud-content.com/S/AfEJn-YwGI-E59qGpJKGqXGYBCVD/IMG_3982.JPG?o=AgM6OhdIfK2uwSt0Lfum4NIJHZVOI6hN6E_ZMCivLQP4&v=1&z=https%3A%2F%2Fp24-content.icloud.com%3A443&x=1&a=CAogiPl2l3hFnf0oQlNhfKcU2RxCUYR1LV1HZKF_NN_LBjsSZxCnivejujAYp6GKqbowIgEAUgSYBCVDaibmUg3Z6ZJX-hVxKLAUA9LGz7dPIDcUR1tsUvpYyO24E-We8E7BMnImDj-cP2rHJ6zXusdqCtuvaaDR-b3emVKsKV0TWp0TwjBAFCCUg_0&e=1664922849&r=78bc6b74-a441-4ccd-b1e1-dd116cecce15-2&s=38G5fOXsjs05mpDwmUGVQDfmSXE" 
+            src="https://cvws.icloud-content.com/S/AfEJn-YwGI-E59qGpJKGqXGYBCVD/IMG_3982.JPG?o=AkQwCCmwvo_HVDO3O2IAuqJoDAgM_C5XJIsTuB8llVMj&v=1&z=https%3A%2F%2Fp24-content.icloud.com%3A443&x=1&a=CAogkiw4thDWge2wqtwGT9ArBUoCNlwHm7RoubVTuu4W1BgSZxCbybypujAYm-DPrrowIgEAUgSYBCVDaiZ5cnao7HITFsAK596xhoBEApfqkJCM5HDfLJyVQRBVNs3pJTOdhnImf6IcNt3YUe7Q1dAUfrceVXqL_-IllWDMf6ue1Dt8xfZHD366TaM&e=1664934473&r=466bc9c4-657b-45fa-af94-cde36ea1f0be-2&s=qrzR9Am8cifiH1yCqFj7aofkO90" 
             alt="Briana Brewster"/>
            </div>
 

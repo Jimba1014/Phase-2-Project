@@ -35,8 +35,7 @@ function App() {
           <Route exact path="/">
             <Search search={search} setSearch ={setSearch} />
             <HomePage 
-              details = {newPersonArray}
-            />
+              details = {newPersonArray}/>
           </Route>
           <Route path="/details">
             <Details />

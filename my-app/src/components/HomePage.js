@@ -2,7 +2,7 @@ import React from 'react';
 import MemberCard from './MemberCard';
 
 
-function HomePage({ details, search, setSearch }) {
+function HomePage({ details }) {
 
     const renderCards = details.map((detail) => {
         return <MemberCard {...detail} key={detail.id}/>
