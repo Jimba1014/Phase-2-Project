@@ -8,6 +8,7 @@ function NavBar() {
         <nav>
             <NavLink exact to="/">Home</NavLink>
             <NavLink to="/form">Form</NavLink>
+            <NavLink to="/details">Details</NavLink>
             <NavLink to="/about">About Us</NavLink>
             <img src ={MusicNote} alt="music note" id="musicNav"></img>
         </nav>

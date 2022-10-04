@@ -5,7 +5,8 @@ import HomePage from './HomePage';
 import Search from './Search';
 import NavBar from './NavBar';
 import Header from './Header';
-import AboutUs from './AboutUs'
+import AboutUs from './AboutUs';
+import Details from './Details';
 
 function App() {
   const [details, setDetails] = useState([])
@@ -36,6 +37,9 @@ function App() {
             <HomePage 
               details = {newPersonArray}
             />
+          </Route>
+          <Route path="/details">
+            <Details />
           </Route>
           <Route path="/about">
             <AboutUs />
