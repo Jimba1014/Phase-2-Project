@@ -163,12 +163,21 @@ input[type='checkbox']{
   text-align: center;
 }
 
+.about-creators {
+  background-color: cornsilk;
+  color: black;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 img {
   padding: 1.5rem;
   height: 400px;
   margin-right: 100px;
   margin-left: 100px;
 }
+
 
 @media(max-width: 700px){
   .cards__item{
