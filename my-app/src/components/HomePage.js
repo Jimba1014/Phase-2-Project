@@ -8,7 +8,7 @@ function HomePage({ details }) {
     })
 
     return(
-        <div>
+        <div className="cards">
             {renderCards}
         </div>
     )

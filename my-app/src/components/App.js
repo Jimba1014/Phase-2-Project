@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { Switch, Route } from "react-router-dom"
-import '../App.css';
 import Form from './Form';
 import HomePage from './HomePage';
 import Search from './Search';
 import NavBar from './NavBar';
+import Header from './Header';
 
 function App() {
   const [details, setDetails] = useState([])
@@ -17,7 +17,8 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
+      <header>
+        <Header />
         <NavBar />
         <Switch>
           <Route exact path="/">
