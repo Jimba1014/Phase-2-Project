@@ -109,7 +109,6 @@ input[type='checkbox']{
 .cards {
   display: flex;
   flex-direction: row;
-  width: 100%;
   flex-wrap: wrap;
   list-style: none;
   padding: 1rem;
@@ -119,7 +118,7 @@ input[type='checkbox']{
   display: flex;
   padding: 1rem;
   margin-right: 20px;
-  width: 50%;
+  width: 45%;
 }
 
 .card {
