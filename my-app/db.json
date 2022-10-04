@@ -4,10 +4,10 @@
       "id": 1,
       "name": "Jim Baldridge",
       "instruments": "Drums, Ukulele",
-      "genre": "Pop, Rock",
+      "genre": "Pop, Rock, Metal",
       "artists": "AJR, Loveless",
-      "song": "Unholy",
-      "memory": "Playing in the Georgia Dome with my College Marchign Band",
+      "song": "Unholy by Sam Smith",
+      "memory": "Playing in the Georgia Dome with my College Marching Band, hearing the crowd chearing and sound of drums bouncing off the stadium walls was one of the coolest exeriences that I have ever had.",
       "link": "https://open.spotify.com/user/1299371422?si=2ea9bac2f4754a4e"
     },
     {
@@ -61,7 +61,35 @@
       "link": ""
     },
     {
-      "id": 7
+      "id": 7,
+      "name": "Seth Brendle",
+      "instruments": "Guitar, Bass, Piano, Saxophone, Sarod",
+      "genre": "Rock, Classicaal, Jaz, Indie, Folk, Bluegrass, Jamband, EDM",
+      "artists": "Grateful Dead, RHCP, Khruangbin, Vulpeck, Miles Davis",
+      "song": "Move On Up - Extended Version - Curtis Mayfield",
+      "memory": "Music festival with my closest friends, everyone is dancing themselves silly and all was well with the world and everyone.",
+      "link": "https://open.spotify.com/user/wkpdxawdxjsfg7us6n9wylhp4?si=CNV2VKECRfmQUUODj24EBw&utm_source=copy-link"
+    },
+    {
+      "id": 8,
+      "name": "Paul Yang",
+      "instruments": "Clarinet, Alto Saxophone, Piano",
+      "genre": "Rock, Pop, Country, Classical, Jazz, Alternative, Indie",
+      "artists": "Norah Jones, Tupac, Coldplay",
+      "song": "Blackpink Shut It Down",
+      "memory": "Jay-Z concert at MSG",
+      "link": ""
+    },
+    {
+      "id": 9,
+      "name": "Briana Brewster",
+      "instruments": "French Horn, Trumpet, Guitar, Ukulele, Piano",
+      "genre": "Rock, Pop, Classical, Alternative, Indie",
+      "artists": "Oracle Sisters, Babe Rainbow, Andy Shauf",
+      "song": "Amsterdam - Gregory Alan Isakov",
+      "memory": "Camping at Bonnaroo with friends ",
+      "link": "https://open.spotify.com/user/tbb647?si=0e0d9cdbc4134f6e"
     }
+
   ]
 }
