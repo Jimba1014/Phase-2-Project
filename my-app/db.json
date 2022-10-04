@@ -1,16 +1,14 @@
 {
-    "details":[
-        { 
-        "id" : 1,
-        "name" : "Jim Baldridge",
-        "instruments" : "Drums, Ukulele",
-        "genre" : "Pop, Rock",
-        "artists" : "AJR, Loveless",
-        "song" : "Unholy", 
-        "memory" : "Playing in the Georgia Dome with my College Marchign Band",
-        "link" : "https://open.spotify.com/user/1299371422?si=2ea9bac2f4754a4e"
-        }
-    
-    ]
-        
+  "details": [
+    {
+      "id": 1,
+      "name": "Jim Baldridge",
+      "instruments": "Drums, Ukulele",
+      "genre": "Pop, Rock",
+      "artists": "AJR, Loveless",
+      "song": "Unholy",
+      "memory": "Playing in the Georgia Dome with my College Marchign Band",
+      "link": "https://open.spotify.com/user/1299371422?si=2ea9bac2f4754a4e"
+    }
+  ]
 }

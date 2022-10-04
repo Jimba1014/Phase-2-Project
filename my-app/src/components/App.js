@@ -20,6 +20,9 @@ function App() {
   const filteredMusicArray = details.filter((person) => {
     return person.nametoLowerCase().includes(search.toLowerCase())
   })
+  function addNewMember(newMember) {
+    setDetails([...details, newMember])
+  }
 
   return (
     <div className="App">
@@ -38,7 +41,7 @@ function App() {
             <AboutUs />
           </Route>
           <Route path="/form">
-            <Form />
+            <Form addNewMember={addNewMember}/>
           </Route>
         </Switch>
       </header>
