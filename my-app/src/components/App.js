@@ -17,9 +17,6 @@ function App() {
     .then((data) => setDetails(data))
   }, [])
 
-  const filteredMusicArray = details.filter((person) => {
-    return person.nametoLowerCase().includes(search.toLowerCase())
-  })
   function addNewMember(newMember) {
     setDetails([...details, newMember])
   }
@@ -32,7 +29,7 @@ function App() {
         <Switch>
           <Route exact path="/">
             <HomePage 
-              details = {filteredMusicArray}
+              details = {details}
               search = {search}
               seatSearch= {setSearch}
             />
