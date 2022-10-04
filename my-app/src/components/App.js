@@ -21,7 +21,7 @@ function App() {
     setDetails([...details, newMember])
   }
   const newPersonArray = details.filter((person) => {
-    return person.name?.toLowerCase().includes(search.toLowerCase())
+    return person.name?.toLowerCase().includes(search.toLowerCase()) || person.instruments?.toLowerCase().includes(search.toLowerCase())
   })
 
 

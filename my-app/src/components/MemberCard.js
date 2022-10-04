@@ -9,13 +9,17 @@ function MemberCard({ id, name, instruments, genre, artists, song, memory, link 
         setIsHidden(prev => !prev)
     }
 
+    const openInNewTab = url => {
+        window.open(url, '_blank', 'noopener,noreferrer');
+    }
+
 
 
     return(
        <li className="card">
         <div className="card__content">
             <h1 className="card__title" onClick={handleClick}>{name}</h1>
-            <Link to={link}>{link}</Link>
+            <button onClick = {() => openInNewTab(link)}>My Music Account</button>
             <div className="card__text">
                 {isHidden ? <div>
                     <p>Instruments that I can Play: {instruments}</p>
