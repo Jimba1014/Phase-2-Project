@@ -38,19 +38,19 @@ nav a {
   margin: 1rem;
   text-decoration: none;
   font-size: 1.2em;
-  color: firebrick;
-  border-bottom: 2px solid firebrick;
+  color: rgb(13, 89, 232);
+  border-bottom: 2px solid rgb(13, 89, 232);
   transition: 0.1s;
 }
 
 nav a:hover,
 nav a:active {
-  color: tomato;
-  border-bottom: 2px solid tomato;
+  color:  #6f7c7f;
+  border-bottom: 2px solid rgb(13, 89, 232);
 }
 
 nav a.active {
-  background-color: rgb(245, 157, 141);
+  background-color:  #aeb6b7;
   color: white;
 }
 
