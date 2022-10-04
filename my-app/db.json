@@ -101,7 +101,14 @@
       "link": "https://music.apple.com/us/playlist/chill-mix/pl.u-pMyl1WbsWr2y1e"
     },
     {
-      "id": 11
+      "id": 11,
+      "name": "Kim Rodrig",
+      "instruments": "Saxophone, Flute, Piano, Guitar, Drums, Bass",
+      "genre": "Rock, Jazz, HipHop",
+      "artists": "The Beatles",
+      "song": "Every Breath You Take - Police",
+      "memory": "Opening for Earth Wind and Fire!",
+      "link": "https://open.spotify.com/user/kimrodrig?si=h0CX5v8rSomAE5Iwb9S-aw"
     }
   ]
 }
