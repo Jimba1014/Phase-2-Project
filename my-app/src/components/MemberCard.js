@@ -20,7 +20,10 @@ function MemberCard({ id, name, instruments, genre, artists, song, memory, link 
        <li className="card">
         <div className="card__content" onClick={handleClick}>
             <h1 className="card__title" >{name}</h1>
+            <div className="personButton">
             <button id="spotifyButton" onClick = {() => openInNewTab(link)}>My Music Account</button>
+            <button id="showDetails" onClick = {(isHidden) => !isHidden}>{isHidden ? "Show Less" : "Show Me Details"}</button>
+            </div>
             <div className="card__text">
                 {isHidden ? <div>
                     <p> <b>Instruments that I can Play:</b> {instruments}</p>
