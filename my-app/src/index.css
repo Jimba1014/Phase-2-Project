@@ -175,7 +175,7 @@ input[type='checkbox']{
   margin-right: 100px;
 }
 
-img {
+.creator-img {
   background-color: aliceblue;
   border-radius: .5rem;
   padding: 1.5rem;
