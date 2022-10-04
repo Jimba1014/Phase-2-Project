@@ -9,12 +9,17 @@ import AboutUs from './AboutUs'
 
 function App() {
   const [details, setDetails] = useState([])
+  const [search, setSearch] = useState("")
 
   useEffect(() => {
     fetch('http://localhost:4000/details')
     .then((res) => res.json())
     .then((data) => setDetails(data))
   }, [])
+
+  const filteredMusicArray = details.filter((person) => {
+    return person.nametoLowerCase().includes(search.toLowerCase())
+  })
 
   return (
     <div className="App">
@@ -23,7 +28,11 @@ function App() {
         <NavBar />
         <Switch>
           <Route exact path="/">
-            <HomePage details={details}/>
+            <HomePage 
+              details = {filteredMusicArray}
+              search = {search}
+              seatSearch= {setSearch}
+            />
           </Route>
           <Route path="/about">
             <AboutUs />
