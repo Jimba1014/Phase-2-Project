@@ -165,15 +165,19 @@ input[type='checkbox']{
 }
 
 .about-creators {
+  padding: .5rem;
   background-color: cornsilk;
   color: black;
   border-radius: 2rem;
   text-align: center;
+  margin-top: 50px;
   margin-left: 100px;
   margin-right: 100px;
 }
 
 img {
+  background-color: aliceblue;
+  border-radius: .5rem;
   padding: 1.5rem;
   height: 400px;
   margin-right: 100px;
