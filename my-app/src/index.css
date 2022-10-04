@@ -25,6 +25,7 @@ body {
   opacity: 90%;
   text-align: center;
   font-size: 1rem;
+  padding: 22px
 }
 
 nav {
@@ -216,4 +217,10 @@ input[type='checkbox']{
   height: auto;
   width: 800px;
   position:center;
+}
+
+#musicNav{
+  width: 100px;
+  height: auto
+  
 }

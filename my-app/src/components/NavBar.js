@@ -1,5 +1,6 @@
 import React from 'react'; 
 import { NavLink } from "react-router-dom"
+import MusicNote from "../assets/musicNote.png"
 
 
 function NavBar() {
@@ -8,6 +9,7 @@ function NavBar() {
             <NavLink exact to="/">Home</NavLink>
             <NavLink to="/form">Form</NavLink>
             <NavLink to="/about">About Us</NavLink>
+            <img src ={MusicNote} alt="music note" id="musicNav"></img>
         </nav>
     )
 }

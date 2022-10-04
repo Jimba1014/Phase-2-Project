@@ -12,11 +12,7 @@ function MemberCard({ id, name, instruments, genre, artists, song, memory, link 
     const openInNewTab = url => {
         window.open(url, '_blank', 'noopener,noreferrer');
     }
-
-
-
-
-
+    
     return(
        <li className="card">
         <div className="card__content" >
