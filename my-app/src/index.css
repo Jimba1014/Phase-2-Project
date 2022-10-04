@@ -29,7 +29,7 @@ body {
 
 nav {
   background-color: cornsilk;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 nav a {
@@ -59,9 +59,9 @@ input[type='checkbox']{
 }
 
 .search {
+  color: aliceblue;
   width: 50%;
   text-align: center;
-
   position: relative;
   display: block;
   margin: auto;

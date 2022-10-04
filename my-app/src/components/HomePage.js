@@ -1,5 +1,6 @@
 import React from 'react'; 
 import MemberCard from './MemberCard';
+import Search from './Search';
 
 function HomePage({ details }) {
 
@@ -8,8 +9,11 @@ function HomePage({ details }) {
     })
 
     return(
+        <div>
+            <Search />
         <div className="cards">
             {renderCards}
+        </div>
         </div>
     )
 }

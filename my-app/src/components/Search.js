@@ -4,7 +4,7 @@ function Search() {
     return(
         <div className="search">
         <label htmlFor="search">Search Members:</label>
-        <input
+        <input 
           type="text"
           id="search"
           placeholder="Type a name to search..."

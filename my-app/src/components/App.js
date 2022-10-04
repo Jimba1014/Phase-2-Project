@@ -5,6 +5,7 @@ import HomePage from './HomePage';
 import Search from './Search';
 import NavBar from './NavBar';
 import Header from './Header';
+import AboutUs from './AboutUs'
 
 function App() {
   const [details, setDetails] = useState([])
@@ -24,8 +25,8 @@ function App() {
           <Route exact path="/">
             <HomePage details={details}/>
           </Route>
-          <Route path="/search">
-            <Search />
+          <Route path="/about">
+            <AboutUs />
           </Route>
           <Route path="/form">
             <Form />
