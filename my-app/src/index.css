@@ -207,7 +207,7 @@ img {
   display: flex;
   padding: 1rem;
 }
-#personButton{
+.personButton{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
