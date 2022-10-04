@@ -20,11 +20,11 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 5rem;
+  height: 10rem;
   border-radius: 30%;
   opacity: 90%;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 1rem;
 }
 
 nav {
@@ -204,4 +204,10 @@ img {
 #personButton{
   display: flex;
   flex-direction: column;
+}
+#mainHeader{
+  text-align: center;
+  height: auto;
+  width: 800px;
+  position:center;
 }

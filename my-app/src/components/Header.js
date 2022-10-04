@@ -1,9 +1,10 @@
 import React from "react";
+import HeaderImage from "../assets/musicalCohort.png"
 
 function Header() {
   return (
     <div id="main-header">
-      Cohort Music
+      <img src={HeaderImage} alt="Musical Cohort" id="mainHeader"></img>
     </div>
   );
 }

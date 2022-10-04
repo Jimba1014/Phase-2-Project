@@ -1,6 +1,6 @@
-import React, {useState} from 'react'; 
+import React from 'react'; 
 import MemberCard from './MemberCard';
-import Search from './Search';
+
 
 function HomePage({ details, search, setSearch }) {
 
