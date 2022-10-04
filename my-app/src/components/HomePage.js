@@ -9,11 +9,8 @@ function HomePage({ details, search, setSearch }) {
     })
 
     return(
-        <div>
-            <Search search={search} setSearch ={setSearch} />
         <div className="cards">
             {renderCards}
-        </div>
         </div>
     )
 }

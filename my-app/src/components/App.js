@@ -20,6 +20,10 @@ function App() {
   function addNewMember(newMember) {
     setDetails([...details, newMember])
   }
+  const newPersonArray = details.filter((person) => {
+    return person.name?.toLowerCase().includes(search.toLowerCase())
+  })
+
 
   return (
     <div className="App">
@@ -28,10 +32,9 @@ function App() {
         <NavBar />
         <Switch>
           <Route exact path="/">
+            <Search search={search} setSearch ={setSearch} />
             <HomePage 
-              details = {details}
-              search = {search}
-              seatSearch= {setSearch}
+              details = {newPersonArray}
             />
           </Route>
           <Route path="/about">
