@@ -1,5 +1,4 @@
-import React, {useState} from 'react'; 
-import { Link } from 'react-router-dom'
+import React, {useState} from 'react';
 
 function MemberCard({ id, name, instruments, genre, artists, song, memory, link }) {
 
@@ -12,15 +11,16 @@ function MemberCard({ id, name, instruments, genre, artists, song, memory, link 
     const openInNewTab = url => {
         window.open(url, '_blank', 'noopener,noreferrer');
     }
-    
+
+
+
+
+
     return(
        <li className="card">
-        <div className="card__content" >
+        <div className="card__content" onClick={handleClick}>
             <h1 className="card__title" >{name}</h1>
-            <div className="personButton">
-                <button  id="spotifyButton" onClick = {() => openInNewTab(link)}>My Music Account</button>
-                <button  id="showDetails" onClick={handleClick}>{isHidden ? 'Show Me Less':'Show Me Details' }  </button>
-            </div>
+            <button id="spotifyButton" onClick = {() => openInNewTab(link)}>My Music Account</button>
             <div className="card__text">
                 {isHidden ? <div>
                     <p> <b>Instruments that I can Play:</b> {instruments}</p>
