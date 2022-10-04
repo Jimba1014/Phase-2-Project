@@ -9,6 +9,58 @@
       "song": "Unholy",
       "memory": "Playing in the Georgia Dome with my College Marchign Band",
       "link": "https://open.spotify.com/user/1299371422?si=2ea9bac2f4754a4e"
+    },
+    {
+      "id": 2,
+      "name": "Tristen Hammon",
+      "instruments": "Trumpet and Guitar",
+      "genre": "Rock, Counrty",
+      "artists": "Riley Green, Falling In Reverse",
+      "song": "Excuse The Mess - Austin Snell",
+      "memory": "Driving down gravel roads listening to music with the windows down! Can't Beat It!",
+      "link": ""
+    },
+    {
+      "id": 3,
+      "name": "Dan Boley",
+      "instruments": "None",
+      "genre": "Indie",
+      "artists": "Of Monsters And Men",
+      "song": "Of Monsters And Men",
+      "memory": "Crowd surfing at a Matt & Kim concert",
+      "link": "https://open.spotify.com/user/12164892286?si=931e38f9bab54c7b"
+    },
+    {
+      "id": 4,
+      "name": "Chloe Scheffler",
+      "instruments": "Clarinet",
+      "genre": "Rock, Pop, Country, Classical, Jazz, Alternitive, Indie, Hip-Hop",
+      "artists": "Drake, Lil Baby, Chris Brown, AC/DC, Def Leppard",
+      "song": "All There by Jeezy and EVERY CHANCE I GET by Dj Khaled",
+      "memory": "I went to a rock concert in June and Def Leppard, Poison, Joan Jett & the Blackhearts, and Motley Crue",
+      "link": "@chloescheffler_"
+    },
+    {
+      "id": 5,
+      "name": "Sam Avery",
+      "instruments": "Piano, Trumpet",
+      "genre": "Pop, Hip-Hop, Rap, Blues",
+      "artists": "Lizzo, Run the Jewels, Kingfish Igram, Kid Quill ",
+      "song": "Mariella by Khruangbin",
+      "memory": "Singing Lizzo's 'Cuz I Love You' on a roadtrip with my closest girlfriends (right after a breakup too lol)",
+      "link": "https://open.spotify.com/user/aves41?si=9aedf324d93c4c77"
+    },
+    {
+      "id": 6,
+      "name": "Emily Fernschild",
+      "instruments": "viola",
+      "genre": "Rock, Pop, Alternitive",
+      "artists": "Miley Cyrus",
+      "song": "Unholy by Sam Smith, Kim Petras",
+      "memory": "Going to the Hillary Duff concert when I was young!",
+      "link": ""
     }
+
+
   ]
 }
