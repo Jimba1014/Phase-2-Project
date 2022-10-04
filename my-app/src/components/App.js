@@ -16,6 +16,10 @@ function App() {
     .then((data) => setDetails(data))
   }, [])
 
+  function addNewMember(newMember) {
+    setDetails([...details, newMember])
+  }
+
   return (
     <div className="App">
       <header>
@@ -29,7 +33,7 @@ function App() {
             <AboutUs />
           </Route>
           <Route path="/form">
-            <Form />
+            <Form addNewMember={addNewMember}/>
           </Route>
         </Switch>
       </header>
