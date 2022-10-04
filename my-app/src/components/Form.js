@@ -30,6 +30,14 @@ function Form({ addNewMember }) {
         })
         .then((res) => res.json())
         .then(() => addNewMember(newMember))
+
+        setName("")
+        setInstruments("")
+        setGenre("")
+        setArtists("")
+        setSong("")
+        setMemory("")
+        setLink("")
     }
     
     return(
