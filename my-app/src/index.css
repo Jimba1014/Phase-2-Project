@@ -58,6 +58,29 @@ input[type='checkbox']{
   text-align: center;
 }
 
+.new-member-form {
+  padding: 2rem 1rem;
+  margin: 2rem 2rem;
+  background-color: cornsilk;
+}
+
+.new-member-form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.new-member-form input {
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  flex: 1;
+  padding: 12px;
+}
+
+.new-member-form button {
+  width: 150px;
+}
+
 .search {
   color: aliceblue;
   width: 50%;
