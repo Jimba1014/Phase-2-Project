@@ -13,6 +13,7 @@ function Form() {
             <input type="text" name="song" placeholder="Your favorite song" />
             <input type="text" name="memory" placeholder="Your favorite music memory" />
             <input type="text" name="link" placeholder="Spotify profile link" />
+            <button type="submit">Add Member</button>
         </div>
     )
 }
