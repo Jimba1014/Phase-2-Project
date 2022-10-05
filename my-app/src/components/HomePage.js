@@ -5,7 +5,7 @@ import MemberCard from './MemberCard';
 function HomePage({ details }) {
 
     const renderCards = details.map((detail) => {
-        return <MemberCard {...detail} key={detail.id}/>
+        return <MemberCard {...detail} detail={detail} key={detail.id}/>
     })
 
     return(
