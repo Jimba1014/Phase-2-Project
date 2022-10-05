@@ -7,7 +7,7 @@ function Search({search, setSearch}) {
         <input 
           type="text"
           id="search"
-          placeholder="Type a name or instrument to search..."
+          placeholder="Search name or instrument..."
           value ={search}
           onChange = {(e) => setSearch(e.target.value)}
         />

@@ -65,6 +65,10 @@ input[type='checkbox']{
   padding: 2rem 1rem;
   margin: 2rem 2rem;
   background-color: cornsilk;
+  border-radius: 3rem;
+  font-size: 25px;
+  margin-left: 20%;
+  margin-right: 20%
 }
 
 .new-member-form form {
@@ -78,10 +82,14 @@ input[type='checkbox']{
   margin-bottom: 1rem;
   flex: 1;
   padding: 12px;
+  border-radius: 3rem;
+  font-size: 20px
 }
 
 .new-member-form button {
   width: 150px;
+  border-radius: 4rem;
+  font-size: 20px
 }
 
 .search {
@@ -95,7 +103,7 @@ input[type='checkbox']{
   font-size: 40px;
 }
 #search{
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .searchTerm {
