@@ -222,6 +222,8 @@ input[type='checkbox']{
   margin-left: 10px;
 }
 #cardNote{
-  width: 100px;
+  width: 150px;
   height: auto;
+  margin-left: 77%;
+  margin-top: -115px;
 }
