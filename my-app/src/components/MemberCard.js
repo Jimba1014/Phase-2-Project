@@ -26,13 +26,8 @@ function MemberCard({ id, name, link, detail }) {
          <div className="card__content">
              <h1 className="card__title" >{name}</h1>
              <div className="personButton">
-<<<<<<< HEAD
-             <button id="spotifyButton" onClick = {() => openInNewTab(link)}>My Music Account</button>
-             <button id="showDetails" onClick = {handleClick}>Show Me Details!</button>
-=======
                 <button id="spotifyButton" onClick = {() => openInNewTab(link)}>My Music Account</button>
                 <button id="showDetails" onClick = {handleClick}>"Show Me Details!"</button>
->>>>>>> 58c309edebbf071439b94944da003f840d53d171
              </div>
              <img src={SingleEight} alt='singleEight' id="cardNote"></img>
          </div>
