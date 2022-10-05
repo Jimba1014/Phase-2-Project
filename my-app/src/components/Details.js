@@ -12,7 +12,6 @@ function Details() {
     useEffect(() => {
         setDetail(location.state.test)
     }, [location])
-    console.log(detail)
 
     return (
         <div>
