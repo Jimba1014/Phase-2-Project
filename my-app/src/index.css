@@ -245,10 +245,14 @@ input[type='checkbox']{
 
 .comment-box input {
   border-radius: 4rem;
-  margin-right: 1rem;
-  margin-left: 3rem;
+  margin-left: 1rem;
   margin-top: 1rem;
   flex: 1;
   padding: 10px;
   width: 120%;
+}
+
+#submit {
+  margin-left: 8rem;
+  width: 100px;
 }

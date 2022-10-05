@@ -18,6 +18,17 @@ function App() {
     .then((data) => setDetails(data))
   }, [])
 
+  function updatedDetails(updatedObject) {
+    const updatedArray = details.map((detail) => {
+      if (detail.id === updatedObject.id) {
+        return updatedObject
+      } else {
+        return detail
+      }
+    })
+    setDetails(updatedArray)
+  }
+
   function addNewMember(newMember) {
     setDetails([...details, newMember])
   }
@@ -38,7 +49,7 @@ function App() {
               details = {newPersonArray}/>
           </Route>
           <Route path="/details">
-            <Details />
+            <Details updatedDetails={updatedDetails} details={details}/>
           </Route>
           <Route path="/about">
             <AboutUs />

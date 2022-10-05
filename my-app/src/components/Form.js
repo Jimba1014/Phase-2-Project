@@ -21,11 +21,12 @@ function Form({ addNewMember }) {
             memory: memory,
             link: link
         }
+        console.log(newMember)
         fetch('http://localhost:4000/details', {
             method: "POST",
-            header: {
-                "Content-Type": "application/json"
-            },
+            headers: {
+                'Content-Type': 'application/json',
+              },
             body: JSON.stringify(newMember)
         })
         .then((res) => res.json())

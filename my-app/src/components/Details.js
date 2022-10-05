@@ -2,8 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom'
 import SingleEight from '../assets/eighth.png'
 import CommentBox from './CommentBox';
+import CommentList from './CommentList';
 
-function Details() {
+function Details({ updatedDetails }) {
 
 
     const [detail, setDetail] = useState(null)
@@ -34,7 +35,8 @@ function Details() {
             </div>
         </div>
         </li> 
-        <CommentBox />
+        <CommentBox setDetail={setDetail} comments={detail?.comment} id={detail?.id} updatedDetails={updatedDetails}/>
+        <CommentList comments={detail?.comment}/>
         </div>
     )
 }

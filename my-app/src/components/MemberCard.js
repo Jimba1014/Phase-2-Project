@@ -4,12 +4,10 @@ import SingleEight from '../assets/eighth.png'
 
 function MemberCard({ id, name, link, detail }) {
 
-    const [currentDetail, setCurrentDetail] = useState([])
     const history = useHistory();
    
 
     function handleClick(){
-        setCurrentDetail(detail)
             history.push({
                 pathname: '/details',
                 state: {test: detail}
