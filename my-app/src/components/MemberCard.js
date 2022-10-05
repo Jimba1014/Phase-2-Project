@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import SingleEight from '../assets/eighth.png'
 
 function MemberCard({ id, name, instruments, genre, artists, song, memory, link }) {
 
@@ -13,17 +14,16 @@ function MemberCard({ id, name, instruments, genre, artists, song, memory, link 
     }
 
 
-
-
-
     return(
        <li className="card">
         <div className="card__content" onClick={handleClick}>
             <h1 className="card__title" >{name}</h1>
+            
             <div className="personButton">
             <button id="spotifyButton" onClick = {() => openInNewTab(link)}>My Music Account</button>
-            <button id="showDetails" onClick = {(isHidden) => !isHidden}>{isHidden ? "Show Less" : "Show Me Details"}</button>
+            <button id="showDetails" onClick = {(isHidden) => !isHidden}>{isHidden ? "Show Less" : "Show Me Details!"}</button>
             </div>
+            <img src={SingleEight} alt='singleEight' id="cardNote"></img>
             <div className="card__text">
                 {isHidden ? <div>
                     <p> <b>Instruments that I can Play:</b> {instruments}</p>
