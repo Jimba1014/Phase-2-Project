@@ -28,7 +28,7 @@ function MemberCard({ id, name, link, detail }) {
              
              <div className="personButton">
              <button id="spotifyButton" onClick = {() => openInNewTab(link)}>My Music Account</button>
-             <button id="showDetails" onClick = {handleClick}>"Show Me Details!"</button>
+             <button id="showDetails" onClick = {handleClick}>Show Me Details!</button>
              </div>
          </div>
          </li>  

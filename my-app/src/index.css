@@ -227,3 +227,28 @@ input[type='checkbox']{
   margin-left: 77%;
   margin-top: -115px;
 }
+
+.comment-box {
+  background-color: aliceblue;
+  box-shadow: 5pt 6px rgb(182, 188, 193);
+  border-radius: 4rem;
+  display: flex;
+  width: 45%;
+  overflow: hidden;
+  padding: .5rem;
+  margin: 1rem;  
+}
+
+.comment-box h2 {
+  margin-left: 2rem;
+}
+
+.comment-box input {
+  border-radius: 4rem;
+  margin-right: 1rem;
+  margin-left: 3rem;
+  margin-top: 1rem;
+  flex: 1;
+  padding: 10px;
+  width: 120%;
+}

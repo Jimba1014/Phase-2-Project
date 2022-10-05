@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom'
 import SingleEight from '../assets/eighth.png'
+import CommentBox from './CommentBox';
 
 function Details() {
+
 
     const [detail, setDetail] = useState(null)
     const location = useLocation();
@@ -13,14 +15,13 @@ function Details() {
     console.log(detail)
 
     return (
-
+        <div>
         <li className="card">
         <div className="card__content">
             <h1 className="card__title" >{detail?.name}</h1>
             
             <div className="personButton">
             <button id="spotifyButton">My Music Account</button>
-            <button id="showDetails">"Show Me Details!"</button>
             </div>
             <img src={SingleEight} alt='singleEight' id="cardNote"></img>
             <div className="card__text">
@@ -31,10 +32,11 @@ function Details() {
                     <p><b>The song that I've benn listening to on repeat:</b> {detail?.song}</p>
                     <p><b>My favorite musical memory:</b> {detail?.memory}</p>
                 </div>
-            
             </div>
         </div>
-        </li>  
+        </li> 
+        <CommentBox />
+        </div>
     )
 }
 
