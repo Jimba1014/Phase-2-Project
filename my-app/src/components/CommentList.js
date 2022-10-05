@@ -2,12 +2,11 @@ import React from 'react';
 
 function CommentList({ comments }) {
 
-    console.log(comments)
     return(
-        <div>
+        <div className='comment-list'>
             <ul>
             {comments?.map((comment) => {
-                return <li>{comment}</li>
+                return <li className="comment">{comment}</li>
             })}
             </ul>
         </div>

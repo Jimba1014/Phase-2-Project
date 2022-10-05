@@ -15,7 +15,8 @@ function Details({ updatedDetails }) {
     }, [location])
 
     return (
-        <div>
+    <div className='row'>
+        <div className='column-left'>
         <li className="card">
         <div className="card__content">
             <h1 className="card__title" >{detail?.name}</h1>
@@ -36,8 +37,12 @@ function Details({ updatedDetails }) {
         </div>
         </li> 
         <CommentBox setDetail={setDetail} comments={detail?.comment} id={detail?.id} updatedDetails={updatedDetails}/>
+        </div>
+        <div className='column-right'>
+        <h2>Comment List</h2>
         <CommentList comments={detail?.comment}/>
         </div>
+    </div>
     )
 }
 
