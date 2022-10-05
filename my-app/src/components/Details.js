@@ -19,8 +19,8 @@ function Details() {
             <h1 className="card__title" >{detail?.name}</h1>
             
             <div className="personButton">
-            <button id="spotifyButton">My Music Account</button>
-            <button id="showDetails">"Show Me Details!"</button>
+                <button id="spotifyButton">My Music Account</button>
+                <button id="showDetails">"Show Me Details!"</button>
             </div>
             <img src={SingleEight} alt='singleEight' id="cardNote"></img>
             <div className="card__text">

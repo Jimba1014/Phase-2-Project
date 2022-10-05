@@ -25,11 +25,11 @@ function MemberCard({ id, name, link, detail }) {
         <li className="card">
          <div className="card__content">
              <h1 className="card__title" >{name}</h1>
-             
              <div className="personButton">
-             <button id="spotifyButton" onClick = {() => openInNewTab(link)}>My Music Account</button>
-             <button id="showDetails" onClick = {handleClick}>"Show Me Details!"</button>
+                <button id="spotifyButton" onClick = {() => openInNewTab(link)}>My Music Account</button>
+                <button id="showDetails" onClick = {handleClick}>"Show Me Details!"</button>
              </div>
+             <img src={SingleEight} alt='singleEight' id="cardNote"></img>
          </div>
          </li>  
      )
