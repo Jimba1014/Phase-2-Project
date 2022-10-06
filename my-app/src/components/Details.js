@@ -11,7 +11,7 @@ function Details({ updatedDetails }) {
     const location = useLocation();
 
     useEffect(() => {
-        setDetail(location.state.test)
+        setDetail(location.state?.test)
     }, [location])
 
     return (
