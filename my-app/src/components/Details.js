@@ -30,7 +30,7 @@ function Details({ updatedDetails }) {
                     <p> <b>Instruments that I can Play:</b> {detail?.instruments}</p>
                     <p><b>My Favorite Genre of Music:</b> {detail?.genre} </p>
                     <p><b>My Favorite Artists:</b> {detail?.artists} </p>
-                    <p><b>The song that I've benn listening to on repeat:</b> {detail?.song}</p>
+                    <p><b>The song that I've been listening to on repeat:</b> {detail?.song}</p>
                     <p><b>My favorite musical memory:</b> {detail?.memory}</p>
                 </div>
             </div>
