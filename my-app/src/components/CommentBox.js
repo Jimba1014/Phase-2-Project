@@ -27,9 +27,9 @@ function CommentBox({ comments, id, setDetail, updatedDetails }) {
 
     return (
         <div className="comment-box">
-            <h2 className="add">Add a comment</h2>
+            <h2 className="add">Add a Comment</h2>
             <form onSubmit={handleSubmit}>
-                <input value={comment} onChange={(e) => setComment(e.target.value)} type="text" name="comment" placeholder="Add a comment..." />
+                <input value={comment} onChange={(e) => setComment(e.target.value)} type="text" name="comment" placeholder="Add a Comment..." />
             <div>
                 <button id="submit" type="submit">Submit</button>
             </div>
