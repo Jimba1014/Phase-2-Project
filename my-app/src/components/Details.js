@@ -14,6 +14,18 @@ function Details({ updatedDetails }) {
         setDetail(location.state?.test)
     }, [location])
 
+    const openInNewTab = url => {
+        window.open(url, '_blank', 'noopener,noreferrer');
+    }
+
+    function handleDecision(){
+        if (detail?.link === ""){
+            return window.alert("Sorry but this person doesn't have a music account :( ") 
+            }
+            else {openInNewTab(detail?.link)
+            }
+        }
+
     return (
     <div className='row'>
         <div className='column-left'>
@@ -22,7 +34,7 @@ function Details({ updatedDetails }) {
             <h1 className="card__title" >{detail?.name}</h1>
             
             <div className="personButton">
-            <button id="spotifyButton">My Music Account</button>
+            <button id="spotifyButton" onClick = {() => handleDecision()}>My Music Account</button>
             </div>
             <img src={SingleEight} alt='singleEight' id="cardNote"></img>
             <div className="card__text">
