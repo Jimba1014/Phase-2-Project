@@ -29,10 +29,10 @@ function AboutUs() {
                 to share their own musical interests and backgrounds with each other!
             </p>
             <div>
-            <img className='creator-img'
+            <img className='player-img'
             src={Drum} 
             alt="Jim playing drums"/>
-            <img className='creator-img'
+            <img className='player-img'
             src={Mello} 
             alt="Briana playing mellophone"/>
            </div>
