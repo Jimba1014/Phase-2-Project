@@ -52,7 +52,7 @@ function Form({ addNewMember }) {
             <input value={artists} onChange={(e) => setArtists(e.target.value)} type="text" name="artists" placeholder="Your favorite artists" />
             <input value={song} onChange={(e) => setSong(e.target.value)} type="text" name="song" placeholder="Your favorite song" />
             <input value={memory} onChange={(e) => setMemory(e.target.value)} type="text" name="memory" placeholder="Your favorite music memory" />
-            <input value={link} onChange={(e) => setLink(e.target.value)} type="text" name="link" placeholder="Spotify profile link" />
+            <input value={link} onChange={(e) => setLink(e.target.value)} type="text" name="link" placeholder="Spotify profile link (if you do not have one, leave this blank)" />
             <button type="submit">Add Member</button>
          </form>  
      </div>
