@@ -10,6 +10,7 @@ function Form({ addNewMember }) {
     const [memory, setMemory] = useState("")
     const [link, setLink] = useState("")
 
+
     function handleSubmit(e) {
         e.preventDefault();
         const newMember = {
@@ -19,9 +20,9 @@ function Form({ addNewMember }) {
             artists: artists, 
             song: song,
             memory: memory,
-            link: link
+            link: link,
+            comment:[]
         }
-        console.log(newMember)
         fetch('http://localhost:4000/details', {
             method: "POST",
             headers: {

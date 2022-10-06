@@ -22,6 +22,7 @@ function CommentBox({ comments, id, setDetail, updatedDetails }) {
             setDetail(data)
             updatedDetails(data)
         })
+        setComment("")
     }
 
     return (

@@ -9,9 +9,7 @@
       "song": "Unholy by Sam Smith",
       "memory": "Playing in the Georgia Dome with my College Marching Band, hearing the crowd chearing and sound of drums bouncing off the stadium walls was one of the coolest exeriences that I have ever had.",
       "link": "https://open.spotify.com/user/1299371422?si=2ea9bac2f4754a4e",
-      "comment": [
-       
-      ]
+      "comment": []
     },
     {
       "id": 2,
@@ -43,7 +41,7 @@
       "artists": "Drake, Lil Baby, Chris Brown, AC/DC, Def Leppard",
       "song": "All There by Jeezy and EVERY CHANCE I GET by Dj Khaled",
       "memory": "I went to a rock concert in June and Def Leppard, Poison, Joan Jett & the Blackhearts, and Motley Crue",
-      "link": "@chloescheffler_",
+      "link": "",
       "comment": []
     },
     {
@@ -99,7 +97,9 @@
       "song": "Amsterdam - Gregory Alan Isakov",
       "memory": "Camping at Bonnaroo with friends ",
       "link": "https://open.spotify.com/user/tbb647?si=0e0d9cdbc4134f6e",
-      "comment": []
+      "comment": [
+        "Hey I play the Ukulele too! -Jim"
+      ]
     },
     {
       "id": 10,
@@ -122,6 +122,39 @@
       "memory": "Opening for Earth Wind and Fire!",
       "link": "https://open.spotify.com/user/kimrodrig?si=h0CX5v8rSomAE5Iwb9S-aw",
       "comment": []
+    },
+    {
+      "name": "Zachary Youngdale",
+      "instruments": "Guitar",
+      "genre": "Rock, Alternative, Indie",
+      "artists": "The 1975",
+      "song": "I Don’t Live Here Anymore - War on Drugs",
+      "memory": "Seeing Coldplay this last summer",
+      "link": "https://open.spotify.com/user/zachtheguitarist?si=jBNqBJP7QUyTCsNa9TueQA",
+      "comment": [],
+      "id": 12
+    },
+    {
+      "name": "Gian De Castro",
+      "instruments": "Bass Guitar",
+      "genre": "Rock, Pop, Classical, EDM",
+      "artists": "N/A",
+      "song": "Dreamer by ONE OK ROCK",
+      "memory": "Playing at church conference in front of hundreds of people when I was in high school ",
+      "link": "",
+      "comment": [],
+      "id": 13
+    },
+    {
+      "name": "Nico Garbaccio",
+      "instruments": "Harmonica",
+      "genre": "Rock, Jazz, Alternative",
+      "artists": "Bruce Springsteen",
+      "song": "\"Chaise Longue\" by Wet Leg",
+      "memory": "Seeing Paul McCartney",
+      "link": "https://open.spotify.com/user/nicogarbaccio?si=33b2242f483a4b15",
+      "comment": [],
+      "id": 14
     }
   ]
 }
