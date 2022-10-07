@@ -35,8 +35,7 @@ function App() {
   const newPersonArray = details.filter((person) => {
     return person.name?.toLowerCase().includes(search.toLowerCase()) || person.instruments?.toLowerCase().includes(search.toLowerCase())
   })
-
-
+  
   return (
     <div className="App">
       <header>

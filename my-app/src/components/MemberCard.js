@@ -1,8 +1,8 @@
-import React, {useState} from 'react';
+import React from 'react';
 import { useHistory } from 'react-router-dom';
 import SingleEight from '../assets/eighth.png'
 
-function MemberCard({ handleDecision, id, name, link, detail }) {
+function MemberCard({ id, name, link, detail }) {
 
     const history = useHistory();
    

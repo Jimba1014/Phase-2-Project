@@ -12,7 +12,6 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -moz-font-feature-settings: "liga" on;
 }
 
 #main-header{
@@ -223,6 +222,18 @@ input[type='checkbox']{
   display: flex;
   padding: 1rem;
 }
+#spotifyButton:hover{
+  color: white;
+  background : rgb(131, 200, 225);
+  opacity: .8;
+  cursor: pointer
+}
+#showDetails:hover{
+  color: white;
+  background: rgb(131, 200, 225);
+  opacity: .8;
+  cursor: pointer
+}
 .personButton{
   display: flex;
   flex-direction: row;
@@ -275,6 +286,9 @@ input[type='checkbox']{
   margin-left: 12rem;
   width: 80px;
 }
+#submit:hover{
+  cursor: pointer;
+}
 
 .comment-list {
   display: flex;
@@ -316,4 +330,9 @@ input[type='checkbox']{
 .row {
 display: flex;
 width: 120%;
+}
+#submit_button:hover{
+  cursor: pointer;
+  color: white;
+  background: rgb(100, 217, 100)
 }

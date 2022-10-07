@@ -53,7 +53,7 @@ function Form({ addNewMember }) {
             <input value={song} onChange={(e) => setSong(e.target.value)} type="text" name="song" placeholder="Your favorite song" />
             <input value={memory} onChange={(e) => setMemory(e.target.value)} type="text" name="memory" placeholder="Your favorite music memory" />
             <input value={link} onChange={(e) => setLink(e.target.value)} type="text" name="link" placeholder="Spotify profile link (if you do not have one, leave this blank)" />
-            <button type="submit">Add Member</button>
+            <button id="submit_button" type="submit">Add Member</button>
          </form>  
      </div>
     )
