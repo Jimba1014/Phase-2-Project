@@ -29,30 +29,30 @@ function Details({ updatedDetails }) {
     return (
     <div className='row'>
         <div className='column-left'>
-        <li className="card">
-        <div className="card__content">
-            <h1 className="card__title" >{detail?.name}</h1>
-            
-            <div className="personButton">
-            <button id="spotifyButton" onClick = {() => handleDecision()}>My Music Account</button>
-            </div>
-            <img src={SingleEight} alt='singleEight' id="cardNote"></img>
-            <div className="card__text">
-                <div>
-                    <p> <b>Instruments That I Can Play/Have Played: </b> {detail?.instruments}</p>
-                    <p><b>My Favorite Genres of Music: </b> {detail?.genre} </p>
-                    <p><b>My Favorite Artists:</b> {detail?.artists} </p>
-                    <p><b>The Song That I've Been Listening To On Repeat:</b> {detail?.song}</p>
-                    <p><b>My Favorite Musical Memory:</b> {detail?.memory}</p>
+            <li className="card">
+            <div className="card__content">
+                <h1 className="card__title" >{detail?.name}</h1>
+                
+                <div className="personButton">
+                    <button id="spotifyButton" onClick = {() => handleDecision()}>My Music Account</button>
+                </div>
+                <img src={SingleEight} alt='singleEight' id="cardNote"></img>
+                <div className="card__text">
+                    <div>
+                        <p> <b>Instruments That I Can Play/Have Played: </b> {detail?.instruments}</p>
+                        <p><b>My Favorite Genres of Music: </b> {detail?.genre} </p>
+                        <p><b>My Favorite Artists:</b> {detail?.artists} </p>
+                        <p><b>The Song That I've Been Listening To On Repeat:</b> {detail?.song}</p>
+                        <p><b>My Favorite Musical Memory:</b> {detail?.memory}</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        </li> 
-        <CommentBox setDetail={setDetail} comments={detail?.comment} id={detail?.id} updatedDetails={updatedDetails}/>
+            </li> 
+            <CommentBox setDetail={setDetail} comments={detail?.comment} id={detail?.id} updatedDetails={updatedDetails}/>
         </div>
         <div className='column-right'>
-        <h2>Comment List</h2>
-        <CommentList comments={detail?.comment}/>
+            <h2>Comment List</h2>
+            <CommentList comments={detail?.comment}/>
         </div>
     </div>
     )
