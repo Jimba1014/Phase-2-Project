@@ -98,7 +98,8 @@
       "memory": "Camping at Bonnaroo with friends ",
       "link": "https://open.spotify.com/user/tbb647?si=0e0d9cdbc4134f6e",
       "comment": [
-        "Hey I play the Ukulele too! -Jim"
+        "Hey I play the Ukulele too! -Jim",
+        "Hey thats really cool!"
       ]
     },
     {
@@ -121,7 +122,10 @@
       "song": "Every Breath You Take - Police",
       "memory": "Opening for Earth Wind and Fire!",
       "link": "https://open.spotify.com/user/kimrodrig?si=h0CX5v8rSomAE5Iwb9S-aw",
-      "comment": []
+      "comment": [
+        "Hey I play the drums too! - Jim",
+        "That's so cool that you opened for Earth Wind and Fire!"
+      ]
     },
     {
       "name": "Zachary Youngdale",
@@ -155,6 +159,17 @@
       "link": "https://open.spotify.com/user/nicogarbaccio?si=33b2242f483a4b15",
       "comment": [],
       "id": 14
+    },
+    {
+      "name": "Nico Garbaccio",
+      "instruments": "Harmonica",
+      "genre": "Rock, Jazz, Alternative",
+      "artists": "Bruce Springsteen",
+      "song": "\"Chaise Longue\" by Wet Leg",
+      "memory": "Seeing Paul McCartney",
+      "link": "https://open.spotify.com/user/nicogarbaccio?si=33b2242f483a4b15",
+      "comment": [],
+      "id": 15
     }
   ]
 }
